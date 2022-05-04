@@ -90,13 +90,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" style="color:#FFFF;"href="/covidSym2/doctor_login.php">Dashboard</a>
+            <a class="nav-link" style="color:#FFFF;"href="/doctor_login.php">Dashboard</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color:#FFFF;" href="#prescribe_medicine">Prescribe Medicine</a>
           </li>
           <li class="nav-item" style="position:relative; left:1100px;">
-            <a class="nav-link" style="color:#FFFF;" href="/covidSym2/logout.php">Log Out</a>
+            <a class="nav-link" style="color:#FFFF;" href="/logout.php">Log Out</a>
           </li>
         </ul>
       </div>
@@ -261,7 +261,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
   <section id="prescribe_medicine">
     <h2 class="dashboard-title">Prescribe Medicine</h2>
 <div style="background-color:#112B3C; width:60% ;border-radius:10px; position:relative; height:320px;left:400px;bottom:40px;">
-  <form action="/covidSym2/patient_Details_D.php" method="post">
+  <form action="/patient_Details_D.php" method="post">
     <label for="Date" style="color:#ffff">Date:</label>
     <input style ="height:40px;"type="date" style="height:3rem;" name="medDate" >
     <label for="patientId" style="color:#ffff">Patient ID:</label>

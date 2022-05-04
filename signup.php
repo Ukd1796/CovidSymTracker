@@ -185,7 +185,7 @@ input[type="radio"] {
             <div class="main">
                 <input type="checkbox" id="chk" aria-hidden="true">
                 <div class="signup">
-                    <form action="post" method="/covidSym2/signup.php">
+                    <form action="post" method="/signup.php">
                         <label for="chk" aria-hidden="true">Sign up</label>
                         <input type="text" name="userName" placeholder="Name" required style="height:2rem;">
                         <input type="number" name="userAge" placeholder="Age" required style="height:2rem;">
