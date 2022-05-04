@@ -178,7 +178,7 @@ button:hover {
 
 <body style="background-color: #112B3C; position:relative;left:50px;overflow-x:hidden;">
 <div class="container" > 
-<form id="regForm" action="/symptoms.php" method="post" style="background-color:#ffff">
+<form id="regForm" action="/covidSym2/symptoms.php" method="post" style="background-color:#ffff">
   <h1>Daily Symptoms</h1>
   <!-- One "tab" for each step in the form: -->
   <div class="tab">Enter Details:
@@ -192,8 +192,8 @@ button:hover {
   </div>
   </div>
   <div class="tab">Do you have cough?<br/><br/>
-  <label><nobr><input type="radio" name="cough" value="Yes" id="coughYes"checked><span>Yes</span></nobr></label><br/>
-  <label><nobr><input type="radio" name="cough" value="No" id="coughNo"><span>No</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="cough"  id="coughYes"checked><span>Yes</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="cough"  id="coughNo"><span>No</span></nobr></label><br/>
   <div style="overflow:auto;">
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
@@ -202,8 +202,8 @@ button:hover {
   </div>
   </div>
   <div class="tab">Do you have any symptoms of fatigue?<br/><br/>
-  <label><nobr><input type="radio" name="fatigue" value="Yes" id="fatigueYes" checked><span>Yes</span></nobr></label><br/>
-  <label><nobr><input type="radio" name="fatigue" value="No" id="fatigueNo"><span>No</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="fatigue" id="fatigueYes" checked><span>Yes</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="fatigue" id="fatigueNo"><span>No</span></nobr></label><br/>
   <div style="overflow:auto;">
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
@@ -212,8 +212,8 @@ button:hover {
   </div>
   </div>
   <div class="tab">Do you have loss of smell?<br/><br/>
-  <label><nobr><input type="radio" name="smell" value="Yes" id="smellYes"  checked><span>Yes</span></nobr></label><br/>
-  <label><nobr><input type="radio" name="smell" value="No" id="smellNo"><span>No</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="smell"  id="smellYes"  checked><span>Yes</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="smell" id="smellNo"><span>No</span></nobr></label><br/>
   <div style="overflow:auto;">
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
@@ -222,8 +222,8 @@ button:hover {
   </div>
   </div>
   <div class="tab">Do you have loss of taste?<br/><br/>
-  <label><nobr><input  type="radio" name="taste" value="Yes" id="tasteYes"  checked><span>Yes</span></nobr></label><br/>
-  <label><nobr><input type="radio" name="taste" value="No" id="tasteNo"><span>No</span></nobr></label><br/>
+  <label><nobr><input  type="radio" name="taste" id="tasteYes"  checked><span>Yes</span></nobr></label><br/>
+  <label><nobr><input type="radio" name="taste" id="tasteNo"><span>No</span></nobr></label><br/>
   <div style="overflow:auto;">
     <div style="float:right;">
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
@@ -232,7 +232,7 @@ button:hover {
   </div>
   </div>
   <div class="tab">Any other symptoms?
-  <p><textarea name="otherSym" value="Yes" id="other"></textarea></p>
+  <p><textarea name="otherSym" id="other"></textarea></p>
    <input type="Submit" style="background-color:#00005c; position:relative;color:white;">
   </div>
   <div style="text-align:center;margin-top:40px;">

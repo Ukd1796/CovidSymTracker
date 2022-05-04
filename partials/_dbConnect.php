@@ -1,8 +1,8 @@
 <?php
-$servername = "remotemysql.com";
-$username = "SYpaFnSb09";
-$password = "3cvBbYoIhv";
-$database = "SYpaFnSb09";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "covidsymtracker";
 
 $conn = mysqli_connect($servername,$username,$password,$database);
 if(!$conn){

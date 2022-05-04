@@ -5,13 +5,13 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true)
   header("location: index.php");
   exit;
 }
-if(!isset($_COOKIE[ $_SESSION['cookieName1']])) {
-  echo "Cookie named '" .  $_SESSION['cookieName1']  . "' is not set!";
-} 
-else {
-   echo "Cookie '" .  $_SESSION['cookieName1'] . "' is set!<br>";
-   echo "Value is: " .  $_SESSION['cookieValue1'];
-}
+// if(!isset($_COOKIE[ $_SESSION['cookieName1']])) {
+//   echo "Cookie named '" .  $_SESSION['cookieName1']  . "' is not set!";
+// } 
+// else {
+//    echo "Cookie '" .  $_SESSION['cookieName1'] . "' is set!<br>";
+//    echo "Value is: " .  $_SESSION['cookieValue1'];
+// }
 ?>
 <?php
      include 'partials/_dbconnect.php';
@@ -121,16 +121,16 @@ else {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" style="color:#FFFF;" href="/patient_landing.php">Home</a>
+            <a class="nav-link" style="color:#FFFF;" href="/covidSym2/patient_landing.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color:#FFFF;"href="/symptoms.php">Add Symptoms</a>
+            <a class="nav-link" style="color:#FFFF;"href="/covidSym2/symptoms.php">Add Symptoms</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color:#FFFF;" href="#prescribed_medicine">Medicine Prescribed</a>
           </li>
           <li class="nav-item" style="position:relative; left:1100px;">
-            <a class="nav-link" style="color:#FFFF;" href="/logout.php">Log Out</a>
+            <a class="nav-link" style="color:#FFFF;" href="/covidSym2/logout.php">Log Out</a>
           </li>
         </ul>
       </div>

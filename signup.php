@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     if ($showAlert == false) {
         echo "success";
-        header("location: index.php");
+        header("location: login.php");
     } else {
         echo "there was an error while creating this account";
     }
@@ -185,7 +185,7 @@ input[type="radio"] {
             <div class="main">
                 <input type="checkbox" id="chk" aria-hidden="true">
                 <div class="signup">
-                    <form action="post" method="/signup.php">
+                    <form method="post" action="/covidSym2/signup.php">
                         <label for="chk" aria-hidden="true">Sign up</label>
                         <input type="text" name="userName" placeholder="Name" required style="height:2rem;">
                         <input type="number" name="userAge" placeholder="Age" required style="height:2rem;">

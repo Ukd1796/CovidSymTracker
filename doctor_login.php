@@ -178,7 +178,7 @@ input[type="checkbox"] {
             <h4 style="font-size:2rem;"><center>Login into your Doctor account</center></h4>
                 <input type="checkbox" id="chk" aria-hidden="true">
                 <div class="login">
-                    <form  class="login-form" method="post" action="/doctor_login.php">
+                    <form  class="login-form" method="post" action="/covidSym2/doctor_login.php">
                         <label for="chk" aria-hidden="true">Login</label>
                         <br>
                         <input type="text"  style="height:2rem;" class="form-control form-email" id="inputEmail" placeholder="Doctor ID" name="doctorId" required>
