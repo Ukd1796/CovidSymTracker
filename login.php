@@ -198,14 +198,14 @@ input[type="checkbox"] {
             <h4 style="font-size:2rem;"><center>Login into your Patient account</center></h4>
                 <input type="checkbox" id="chk" aria-hidden="true">
                 <div class="login">
-                    <form  class="login-form" method="post" action="/covidSym2/login.php">
+                    <form  class="login-form" method="post" action="/login.php">
                         <label for="chk" aria-hidden="true">Login</label>
                         <br>
                         <input type="text" style="height:2rem;" class="form-control form-email" id="inputEmail" placeholder="Patient ID" name="patientId" required>
                         <input type="password" style="height:2rem;"class="form-control form-password" id="inputPassword" placeholder="Password" name="userPass"/>
                         <br>
                         <button>Login</button>
-                        <button><a href="/covidSym2/signup.php" style="color:#ffff">Sign up</a></button>
+                        <button><a href="/signup.php" style="color:#ffff">Sign up</a></button>
                     </form>
                 </div>
             </div>

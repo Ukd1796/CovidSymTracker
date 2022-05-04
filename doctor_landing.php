@@ -42,13 +42,13 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true)
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" style="color:#FFFF;"href="/covidSym2/doctor_login.php">Dashboard</a>
+            <a class="nav-link" style="color:#FFFF;"href="/doctor_login.php">Dashboard</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color:#FFFF;" href="#prescribe_medicine">Prescribe Medicine</a>
           </li>
           <li class="nav-item" style="position:relative; left:1100px;">
-            <a class="nav-link" style="color:#FFFF;" href="/covidSym2/logout.php">Log Out</a>
+            <a class="nav-link" style="color:#FFFF;" href="/logout.php">Log Out</a>
           </li>
         </ul>
       </div>

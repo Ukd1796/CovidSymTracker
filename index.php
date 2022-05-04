@@ -212,9 +212,9 @@ input[type="checkbox"] {
 <body>
 <div id="popUp" style="display:none;opacity:1;">
             <h1 style="position:relative; top:30px;left:120px;">Are you ?</h1>
-            <button type="button" style ="position:relative; left:90px;top:20px;"id="submitBtn"class="btn btn-success"><a style="color:#ffff; "href="/covidSym2/doctor_login.php">Doctor</a></button>
+            <button type="button" style ="position:relative; left:90px;top:20px;"id="submitBtn"class="btn btn-success"><a style="color:#ffff; "href="/doctor_login.php">Doctor</a></button>
             <img src="images/3.png" style="height:90px; width:90px; position:absolute; right:250px;bottom:20px;" alt="">
-            <button type="button" style ="position:relative;right:100px;bottom:50px;" id="submitBtn"class="btn btn-success"><a style="color:#ffff; "href="/covidSym2/login.php">Patient</a></button>
+            <button type="button" style ="position:relative;right:100px;bottom:50px;" id="submitBtn"class="btn btn-success"><a style="color:#ffff; "href="/login.php">Patient</a></button>
             <img src="images/2.png" style="height:90px; width:90px; position:absolute; right:80px;bottom:20px;"alt="">
     </div>
     <div id="container2">
