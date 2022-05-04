@@ -178,7 +178,7 @@ button:hover {
 
 <body style="background-color: #112B3C; position:relative;left:50px;overflow-x:hidden;">
 <div class="container" > 
-<form id="regForm" action="/symptoms.php" method="post" style="background-color:#ffff">
+<form id="regForm" action="/covidSym2/symptoms.php" method="post" style="background-color:#ffff">
   <h1>Daily Symptoms</h1>
   <!-- One "tab" for each step in the form: -->
   <div class="tab">Enter Details:
